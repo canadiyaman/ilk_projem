@@ -8,6 +8,8 @@ def burc_bul(tarih: str) -> str:
         return "Koç Burcu"
     elif (ay == 9 and gun >= 22) or (ay == 10 and gun <= 23):
         return "Terazi"
+    elif (ay == 11 and gun >= 23) or (ay == 12 and gun <= 22):
+        return "Yay"
     else:
         return "Bulunamadı"
 
